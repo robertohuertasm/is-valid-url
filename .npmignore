@@ -8,3 +8,4 @@ LICENSE
 .gitignore
 tslint.json
 src
+jest.config.js

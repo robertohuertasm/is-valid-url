@@ -1,6 +1,6 @@
 {
   "name": "is-valid-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package to know if a string has a proper URL format",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
