@@ -1,0 +1,38 @@
+{
+  "name": "is-valid-url",
+  "version": "1.0.0",
+  "description": "A simple package to know if a string has a proper URL format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "lint": "tslint -p .",
+    "build": "rimraf dist && tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "url",
+    "parser",
+    "format"
+  ],
+  "author": "Roberto Huertas<roberto.huertas@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertohuertasm/is-valid-url"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/url-regex": "^4.1.0",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.0",
+    "pretty-quick": "^1.6.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "url-regex": "^4.1.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "tslint:latest", 
+  "rules": {
+    "semicolon": true,
+    "quotemark": false,
+    "arrow-parens": [
+      true, "ban-single-arg-parens"
+    ]
+  }
+}
